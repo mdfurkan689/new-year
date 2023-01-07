@@ -1,3 +1,159 @@
-.check{
-    color: red;
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: url(../images/banner/banner3.png);
+    height: 808px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px auto;
+    margin-bottom: 0;
+    color: rgb(248, 244, 0);
+}
+.banner-headline{
+    font-size: 50px;
+}
+.description{
+    font-size: 15px;
+    color: white;
+    margin: 15px 0px 20px;
+}
+.btn{
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(11, 102, 141);
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: 0;
+}
+.btn:hover{
+    background-color: rgb(166, 212, 232);
+    color: rgb(8, 76, 105);
+}
+.section-banner{
+    margin-right: 200px ;
+    padding: 300px 0px 0px 900px;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+.title{
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    padding-right: 50px;
+    color: rgb(28, 119, 205);
+}
+.parent-title .description{
+    color:  rgba(0, 0, 0, 0.5);
+    padding-left: 25px;
+}
+.parent-description .description{
+    color: rgba(0, 0, 0, 0.5);
+    list-style-image: url(../images/icons/icon-a.png);
+    height: 10px;
+    font-weight: 700;
+}
+.parent{
+    display: flex;
+    align-items: center;
+    padding: 150px;
+}
+section .title{
+    text-align: center;
+}
+.parent-main{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+.company-logo{
+    width: 60px;
+}
+.service-name{
+    font-size: 22px;
+    font-weight: 700;
+}
+.gradient-banner{
+    background-image: url(../images/watch2.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+}
+.title-gradient{
+    font-size: 35px;
+    font-weight: 700;
+    color: yellow;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+.gradient-parent{
+    margin-right: 600px;
+    margin-left: 30px;
+    padding: 50px 50px;
+}
+.footer-banner{
+    width: 1600px;
+    height: 400px;
+    background-color: rgb(5, 103, 196);
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+.footer-section{
+    display: flex;
+    color: white;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.parent-footer{
+    margin-top: 100px;
+    padding: 0px 300px 0px 0px;
+}
+.email{
+    padding-bottom: 10px;
+}
+.phone{
+    padding-bottom: 10px;
+}
+.title-footer{
+    font-size: 35px;
+    font-weight: 700;
+    color: yellow;
+}
+.description{
+    line-height: 20px;
+}
+.subscribe-footer{
+    margin-top: 100px;
+}
+.subscribe-footer h4{
+    font-size: 23px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    color: yellow;
+}
+.subscribe-footer .btn{
+    font-size: 19px;
+    font-weight: 700;
+    padding: 10px;
+}
+.subscribe-footer input{
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 5px;
+}
+.symbol{
+    width: 30px;
+}
+.parent-footer img{
+    padding-left: 10px;
 }
